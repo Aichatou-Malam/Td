@@ -1,7 +1,18 @@
 #ifndef __MY_MATH_LIB_H
  #define __MY_MATH_LIB_H 
- // DÈfinition d'une fonction de calcul de factorielle. 
+ // D√©finition d'une fonction de calcul de factorielle. 
  unsigned int fact( unsigned int value ); 
- // DÈfinition d'une fonction d'ÈlÈvation ‡ une puissance donnÈes. 
+ // D√©finition d'une fonction d'√©l√©vation √† une puissance donn√©es. 
  int power( int value, unsigned int pow ); 
+// Exercice 1 affichage du message Bonjour.
+// Exercice 2 lecture d'un entier √† 03 chiffres et afficher son inverse.
+void inverse();
+// Exercice 3 lecture de deux nombres reels et affichage de leur produit.
+produit();
+// Exercice 4 parit√©
+void pairouimpair();
+// Exercice 5 comparaison de deux entiers.
+void comparaison();
+// Exercice 6 affichage dans un ordre croissant 03 entiers.
+void ordrecroissant();
  #endif
