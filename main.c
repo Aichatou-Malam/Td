@@ -37,6 +37,27 @@ break;
 printf("---------Exercice 6 affichage dans un ordre croissant 03 entiers----------\n");
 ordrecroissant();
 break;
+ case 16:
+printf("---------Exercice 16 permutation---------------\n");
+        char x, y;
+printf("Entrer le premier caractere : ") ;
+        scanf(" %c", &x);
+  printf("Entrer le deuxieme caractere : ");
+        scanf(" %c", &y);
+        printf("Avant permutation : x= %c, y= %c\n", x,y);
+        permutation_char(&x, &y);
+        printf("Apres permutation : x = %c, y=%c", x,y);
+    break;
+    case 17:
+    printf("---------Exercice 17---------------\n");
+    int nombre1, nombre2, result;
+    printf("Entrer le premier nombre : ");
+    scanf("%d", &nombre1);
+    printf("Entrer le deuxieme nombre : ");
+    scanf("%d", &nombre2);
+    result = Somme(nombre1, nombre2);
+    printf("la somme de %d et %d est : %d\n", nombre1, nombre2, result);
+    break ;
 }
 	return 0;
 }
