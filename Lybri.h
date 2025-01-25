@@ -15,4 +15,8 @@ void pairouimpair();
 void comparaison();
 // Exercice 6 affichage dans un ordre croissant 03 entiers.
 void ordrecroissant();
+// Exercice 16 permutation.
+void permutation_char(char* a, char* b);
+// Exercice 17.
+int somme(int a, int b);
  #endif
